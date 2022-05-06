@@ -1,0 +1,22 @@
+{
+    "name": "mexc/sdk",
+    "description": "The sole officially authorized of Mexc SDK for api users.",
+    "type": "1",
+    "require": {
+        "php": ">7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ShawnKuo",
+            "email": "shawnkuo.p@mexc.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ShawnKuo\\": "src/shawnkuo"
+        }
+    }
+
+}
